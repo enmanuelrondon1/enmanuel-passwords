@@ -33,7 +33,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/hooks/use-toast";
 import { useRouter } from "next/navigation";
 import { FormAddElementProps } from "./FormAddElement.types";
-import { db } from "@/lib/db";
 
 export const FormAddElement = (props:FormAddElementProps) => {
   const {userId, closeDialog} = props

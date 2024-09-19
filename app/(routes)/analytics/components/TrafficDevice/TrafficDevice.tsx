@@ -25,7 +25,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { TrafficDeviceProps } from "./TrafficDevice.types";
 
 export const description = "An interactive area chart";
 
@@ -137,8 +136,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function TrafficDevice(props: TrafficDeviceProps) {
-  const { repeated, unique } = props;
+export function TrafficDevice() {
   const [timeRange, setTimeRange] = React.useState("90d");
 
   const filteredData = chartData.filter((item) => {

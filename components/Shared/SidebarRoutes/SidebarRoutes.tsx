@@ -9,7 +9,6 @@ import {
   BarChart,
   DoorClosed,
   House,
-  Icon,
   RectangleEllipsis,
 } from "lucide-react";
 import Link from "next/link";
