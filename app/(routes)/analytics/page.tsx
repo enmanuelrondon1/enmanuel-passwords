@@ -42,7 +42,7 @@ const {unique, repeated} = countPasswords(user.elements);
         <ViewsAnalyticsChart repeated={repeated} unique={unique} />
 
       </div>
-      <TrafficDevice unique={unique} repeated={repeated} />
+      <TrafficDevice  />
     </div>
   )
 }
